@@ -1,8 +1,10 @@
 The OnBoard Drone Synth is a DIY synthesizer that enables the performance of up to 5 independent voices. Each voice is monophonic with controls over pitch, release time, detune, timbre, pitch wander, vibrato, pulsing amplitude variation, and volume level. The stereo output from all voices is passed through overdrive, filter, two independent delays with cross modulation, and reverb. Sonically, the Drone Synth embraces the post-digital and somewhat gritty aesthetic of DIY audio culture.
 
+This site contains support files for users of the Drone Synth.
+
 The PDF is a user guide for Drone Synth owners.
 
-The "esp32.esp32.lolin_s3_mini" folder contains files for the latest software update. Below are some steps for updating the software. It assumes you have the Arduino IDE and the ESP32 board package (version 2.0.17) from Espressif installed.
+The "esp32.esp32.lolin_s3_mini" folder contains files for the latest software update. Below are some steps for updating the software. They assume you have the Arduino IDE and the ESP32 board package (version 2.0.17) from Espressif installed.
 
 MacOS
 1. Download the software folder with the compiled binary files to your computer.
