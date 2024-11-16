@@ -2,7 +2,7 @@ The OnBoard Drone Synth is a DIY synthesizer that enables the performance of up 
 
 The PDF is a user guide for Drone synth owners.
 
-The folder contains files for the latest software update. Below are some steps for updating the software. It assumes you have the Arduino IDE installed and the ESP32 board package from Espressif installed. The current version used is 2.0.17.
+The "esp32.esp32.lolin_s3_mini" folder contains files for the latest software update. Below are some steps for updating the software. It assumes you have the Arduino IDE installed and the ESP32 board package from Espressif installed. The current version used is 2.0.17.
 
 MacOS
 1. Download the software folder with the compiled binary files to your computer.
