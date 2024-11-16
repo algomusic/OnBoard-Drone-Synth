@@ -12,6 +12,6 @@ MacOS
 3. Connect your Drone Synth to the computer via USB.
 4. Check the port number in the Arduino IDE.
 5. You may need to quit the Arduino IDE to free up the port after checking the current port number.
-6. In the script below, adjust the path to the esptool location (inc. version number) and update the port name for the host computer and connected ESP32, then execute it in the Terminal.
+6. In the script below, adjust the userName in the path to the esptool location (inc. version number), update the port number for the host computer and connected ESP32, then execute it in the Terminal.
 
 "/Users/**userName**/Library/Arduino15/packages/esp32/tools/esptool_py/4.5.1/esptool" --chip esp32s3 --port "/dev/cu.usbmodem**123456**" --baud 921600  --before default_reset --after hard_reset write_flash  -z --flash_mode dio --flash_freq 80m --flash_size 4MB 0x0 "Drone_Machine.ino.bootloader.bin" 0x8000 "Drone_Machine.ino.partitions.bin" 0xe000 "boot_app0.bin" 0x10000 "Drone_Machine.ino.bin" 
