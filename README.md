@@ -9,9 +9,10 @@ The "esp32.esp32.lolin_s3_mini" folder contains files for the latest software up
 MacOS
 1. Download the software folder with the compiled binary files to your computer.
 2. Open the Terminal app and navigate (cd) inside the folder with the compiled binaries.
-3. Connect your Drone Synth to the computer via USB.
-4. Check the port number in the Arduino IDE.
-5. You may need to quit the Arduino IDE to free up the port after checking the current port number.
-6. In the script below, adjust the userName in the path to the esptool location (inc. version number), update the port number for the host computer and connected ESP32, then execute it in the Terminal.
+3.	Connect the ESP32-S3 to the computer via USB.
+4.	Check the port number in the terminal with the command ls /dev/cu* or look in the Arduino IDE. 
+5.	You may need to quit the Arduino IDE to free up the port after checking the current port number.
+6.	If the ESP32-S3 board is new, you may need to put it into boot load mode - hold the boot button and press the reset button.
+7.	In the script below, adjust the path to the esptool location (inc. version number) and update the port name for the host computer and connected ESP32, then execute.
 
 "/Users/**userName**/Library/Arduino15/packages/esp32/tools/esptool_py/4.5.1/esptool" --chip esp32s3 --port "/dev/cu.usbmodem**123456**" --baud 921600  --before default_reset --after hard_reset write_flash  -z --flash_mode dio --flash_freq 80m --flash_size 4MB 0x0 "Drone_Machine.ino.bootloader.bin" 0x8000 "Drone_Machine.ino.partitions.bin" 0xe000 "boot_app0.bin" 0x10000 "Drone_Machine.ino.bin" 
