@@ -8,7 +8,7 @@ Prerequisites
 • Firmware file (latest xxx.ino.bin) from the [github repo](https://github.com/algomusic/OnBoard-Drone-Synth)
 
 Steps
-1. Download the desired Drone_Machine...ino.bin file from this repository to your computer.
+1. Download the desired Drone_Machine...ino.bin file from the [repository](https://github.com/algomusic/OnBoard-Drone-Synth/tree/main/Software%20Update) to your computer.
 2. Open a Chromium browser on your computer and visit the ESPConnect site:
 https://thelastoutpostworkshop.github.io/microcontroller_devkit/espconnect/
 3. Connect the Drone Synth to the computer via USB. USB C -> C seems to work best.
