@@ -1,4 +1,4 @@
-Flashing OnBoard Drone Synth Firmware onto ESP32 with ESPConnect
+Flashing OnBoard Drone Synth Firmware onto ESP32 with [ESPConnect](https://thelastoutpostworkshop.github.io/ESPConnect/)
 
 Follow these steps to flash the Beat Machine firmware onto your ESP32 using the web-based ESPConnect.
 
