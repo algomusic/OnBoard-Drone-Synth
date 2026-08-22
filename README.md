@@ -5,3 +5,5 @@ This site contains support files for users of the Drone Synth.
 The PDF is a user guide for Drone Synth owners.
 
 The "Software Update" folder contains files for the latest firmware update and installation instructions.
+
+The Drone Synth is built upon the OnBoard sProject PCB. There are two versions of the sProject PCB, referred to as Purple and Blue, based on the color of the PCB, and thus two sets of firmware updates.
