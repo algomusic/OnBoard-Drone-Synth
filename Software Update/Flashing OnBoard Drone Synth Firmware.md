@@ -5,7 +5,7 @@ Follow these steps to flash the Beat Machine firmware onto your ESP32 using the 
 Prerequisites
 • Computer with Chromium web browser and internet access
 • Drone Synth device and USB cable
-• Firmware file (latest xxx.ino.bin) from github repo: https://github.com/algomusic/OnBoard-Drone-Synth
+• Firmware file (latest xxx.ino.bin) from the [github repo](https://github.com/algomusic/OnBoard-Drone-Synth)
 
 Steps
 1. Download the desired Drone_Machine...ino.bin file from this repository to your computer.
